@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rodrigocanvas_canvas</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <modules>
+        <module>
+            <label>rodrigocanvas_canvas</label>
+            <moduleType>canvas</moduleType>
+            <name>rodrigocanvas_canvas</name>
+            <types>
+                <members>rodrigocanvas_canvasCanvas</members>
+                <name>CanvasMetadata</name>
+            </types>
+            <types>
+                <members>testautonumdata__rodrigocanvas_canvas</members>
+                <name>Module</name>
+            </types>
+            <version>21.0</version>
+        </module>
+    </modules>
+    <namespacePrefix>testautonumdata</namespacePrefix>
+    <version>36.0</version>
+</Package>

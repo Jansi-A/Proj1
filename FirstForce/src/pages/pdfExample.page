@@ -1,0 +1,7 @@
+<apex:page renderAs="pdf" standardcontroller="Opportunity">
+
+&nbsp; &nbsp; <apex:detail relatedList="true"/>
+
+&nbsp; &nbsp; <apex:relatedList list="OpportunityLineItems"/>
+
+</apex:page>

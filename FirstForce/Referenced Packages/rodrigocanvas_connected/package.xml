@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rodrigocanvas_connected</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <modules>
+        <module>
+            <label>rodrigocanvas_connected</label>
+            <moduleDependencies>
+                <moduleRef>
+                    <name>rodrigocanvas_canvas</name>
+                    <namespacePrefix>testautonumdata</namespacePrefix>
+                    <version>21.0</version>
+                </moduleRef>
+            </moduleDependencies>
+            <moduleType>connected</moduleType>
+            <name>rodrigocanvas_connected</name>
+            <types>
+                <members>rodrigocanvas_connected_devConfig</members>
+                <name>ConnectivityDevConfigMetadata</name>
+            </types>
+            <types>
+                <members>testautonumdata__rodrigocanvas_connected</members>
+                <name>Module</name>
+            </types>
+            <version>21.0</version>
+        </module>
+    </modules>
+    <namespacePrefix>testautonumdata</namespacePrefix>
+    <version>36.0</version>
+</Package>
